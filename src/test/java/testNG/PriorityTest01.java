@@ -13,7 +13,9 @@ public class PriorityTest01 {
          System.out.println("create");
      }
 
-    @Test(priority = 2)
+//     method skip
+
+    @Test(priority = 2,enabled = false)
      public void testEdit(){
          System.out.println("Edit");
      }
